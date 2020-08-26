@@ -40,11 +40,17 @@ class Subtr extends StatelessWidget {
                 ),
                 SizedBox(height: 20.0,),
                 GestureDetector(
-                  onTap: (){
+                  onTap: () {
                     var n1 = double.parse(num1.text);
                     var n2 = double.parse(num2.text);
                     var diff = n1 - n2;
-                    print(diff.toStringAsFixed(2));
+                    if (n1 > n2) {
+                      print(diff.toStringAsFixed(2));
+                    }
+                    else {
+                      print("Negative result");
+                      print(diff.toStringAsFixed(2));
+                    }
                   },
                   child: Container(
                     width: 250.0,
