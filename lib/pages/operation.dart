@@ -6,7 +6,7 @@ import 'package:calculator/pages/multiply.dart';
 import 'package:calculator/pages/subtract.dart';
 import 'package:flutter/material.dart';
 
-class Login extends StatelessWidget {
+class Operation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
