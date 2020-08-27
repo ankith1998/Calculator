@@ -20,8 +20,8 @@ class Operation extends StatelessWidget {
               },
               child: Center(
                 child: Container(
-                  width: 110.0,
-                  height: 110.0,
+                  width: 130.0,
+                  height: 130.0,
                   child: Center(child: Text("Addition")),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100.0),
@@ -36,8 +36,8 @@ class Operation extends StatelessWidget {
                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Subtr()));
               },
               child: Container(
-                width: 110.0,
-                height: 110.0,
+                width: 130.0,
+                height: 130.0,
                 child: Center(child: Text("Subtraction")),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(100.0),
@@ -52,8 +52,8 @@ class Operation extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => Multiply()));
               },
               child: Container(
-                width: 110.0,
-                height: 110.0,
+                width: 130.0,
+                height: 130.0,
                 child: Center(child: Text("Multipilication")),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(100.0),
@@ -67,8 +67,8 @@ class Operation extends StatelessWidget {
                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Div()));
               },
               child: Container(
-                width: 110.0,
-                height: 110.0,
+                width: 130.0,
+                height: 130.0,
                 child: Center(child: Text("Division")),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(100.0),
@@ -76,20 +76,6 @@ class Operation extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20.0,),
-            GestureDetector(
-              onTap: (){exit(0);
-              },
-              child: Container(
-                width: 110.0,
-                height: 110.0,
-                child: Center(child: Text("Quit")),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100.0),
-                  color: Colors.black26,
-                ),
-              ),
-            )
           ],
         ),
       ),
